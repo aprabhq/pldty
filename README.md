@@ -123,7 +123,7 @@ For example if we download the playlist [Linux Tips and Tricks](https://www.yout
 
 The indexed file looks like below:
 
-![](https://i.imgur.com/RjSkrMa.png)
+![](https://imgshare.io/images/2020/08/31/playlist-indexed.png)
 
 Then we will have some powerful ways to download the videos in this list with `ytdl video` or `ytdl audio`.
 
