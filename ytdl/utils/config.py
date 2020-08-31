@@ -39,7 +39,7 @@ def get_config(key: str = None):
 
 
 def set_config(key: str, val: Any):
-    c = read_json_from_file(CONFIG_FILE)
+    c = load_config()
     c[key] = val
     write_json_to_file(CONFIG_FILE, c)
     print(f'`config.{key}` has been set to `{val}`')

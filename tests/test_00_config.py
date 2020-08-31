@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
 import sys
-from os import path, getenv
+from os import path, getenv, system
 
 sys.path.append(path.abspath(
     path.join(path.dirname(__file__), path.pardir)
 ))
 
-from ytdl.utils.config import get_config, set_config  # noqa
+from ytdl.utils.config import load_config, set_config  # noqa
 
 
 YOUTUBE_API_KEY = getenv('YOUTUBE_API_KEY', '')
@@ -15,7 +15,7 @@ YOUTUBE_API_KEY = getenv('YOUTUBE_API_KEY', '')
 
 def test_config():
     set_config('api_key', YOUTUBE_API_KEY)
-    conf = get_config()
+    conf = load_config()
     default_config_file = './ptester/.config/ytdl/config.json'
     default_store_dir = './ptester/ytdl_files'
 
@@ -24,3 +24,5 @@ def test_config():
     assert path.exists(default_store_dir)
 
     assert conf['api_key'] == YOUTUBE_API_KEY
+
+    system('poetry run python ytdl_entrypoint.py info')
