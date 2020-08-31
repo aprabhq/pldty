@@ -4,7 +4,7 @@ import os
 from urllib.parse import urlparse, parse_qs
 
 from pytube import YouTube
-from bella import slugify, read_json_from_file
+from bella import read_json_from_file
 
 from .helper import byte_to_text, find_video_index, get_title
 
@@ -30,7 +30,7 @@ def get_video_by_id(api, store_dir: str, vid: str, fname: str = None):
 
     title = yt.title
     print('Loaded video file', title)
-    file_name = fname if fname else slugify(yt.title)
+    file_name = fname if fname else yt.title
 
     print('Available stream:')
     for s in yt.streams:
