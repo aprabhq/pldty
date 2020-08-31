@@ -5,7 +5,5 @@ install:
   - pip install poetry
   - poetry install
 script:
-  - poetry run flake8 ./ --exclude venv,build,dist --statistics
-  - poetry run safety check --bare
-  - poetry run pytest --cov=ytdl tests/*.py
+  - ./run_test.sh
   - coveralls
