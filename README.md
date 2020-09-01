@@ -226,7 +226,7 @@ ytdl audio --index_file "/path/to/Linux Tips and Tricks.json" --limit 5 --prefix
 ytdl audio --index_file "/path/to/Linux Tips and Tricks.json" --since VIDEO_ID --limit 5 --prefix_name "Linux Tutorial" --prefix_num 25
 ```
 
-Downloaded stream will be convert to .mp3 with `ffmpeg`.
+Downloaded stream will be converted to .mp3 with `ffmpeg`.
 
 
 ## Dependencies
