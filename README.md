@@ -4,8 +4,8 @@ Yet another CLI based YouTube downloader tool for linux.
 
 
 [![PyPI version](https://badge.fury.io/py/ytdl.svg)](https://badge.fury.io/py/ytdl)
-[![Build Status](https://travis-ci.org/ndaidong/ytdl.svg?branch=master)](https://travis-ci.org/ndaidong/ytdl)
-[![Coverage Status](https://coveralls.io/repos/github/ndaidong/ytdl/badge.svg?branch=master)](https://coveralls.io/github/ndaidong/ytdl?branch=master)
+[![Build Status](https://travis-ci.org/ndaidong/ytdl.svg?branch=main)](https://travis-ci.org/ndaidong/ytdl)
+[![Coverage Status](https://coveralls.io/repos/github/ndaidong/ytdl/badge.svg?branch=main)](https://coveralls.io/github/ndaidong/ytdl?branch=main)
 
 
 ### Features:
