@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ytdl"
-version = "1.0.0rc3"
+version = "1.0.0rc4"
 description = ""
 authors = ["Dong Nguyen <ndaidong@gmail.com>"]
 maintainers = ["Dong Nguyen <ndaidong@gmail.com>"]
