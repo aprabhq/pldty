@@ -245,7 +245,7 @@ This lib was built on top of the following packages:
 ```bash
 git clone git@github.com:ndaidong/ytdl.git && cd ytdl
 poetry install
-./run_test.sh
+YOUTUBE_API_KEY=your_own_key ./run_test.sh
 ```
 
 
